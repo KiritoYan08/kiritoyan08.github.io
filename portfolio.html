@@ -3,77 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adrian Paul Guillermo | Portfolio</title>
+  <meta name="description" content="IT professional portfolio showcasing software, information systems, research and IoT projects."><title>Adrian Paul Guillermo | Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
   <style>
-    body { scroll-behavior: smooth; }
-
-    header {
-      position: relative;
-      height: 100vh;
-      background: linear-gradient(to bottom, #001f3f, #0d3c61);
-      color: white;
-      text-align: center;
-      overflow: hidden;
-    }
-
-    header::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: transparent url("https://www.transparenttextures.com/patterns/stardust.png") repeat;
-      animation: stars 60s linear infinite;
-      opacity: 0.7;
-    }
-
-    @keyframes stars {
-      from { background-position: 0 0; }
-      to { background-position: 10000px 10000px; }
-    }
-
-    section { padding: 60px 0; }
-
-    footer {
-      background: #212529;
-      color: #adb5bd;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .nav-link { color: white !important; }
-
-    .profile-pic {
-      width: 180px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 4px solid white;
-      margin-bottom: 20px;
-      box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
-      position: relative;
-      z-index: 2;
-    }
-
-    header h1, header p, header a {
-      position: relative;
-      z-index: 2;
-    }
-
-    .card.pop-hover {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      will-change: transform;
-    }
-
-    .card.pop-hover\:hover {
-      transform: translateY(-10px) scale(1.03);
-      box-shadow: 0 15px 25px rgba(0,0,0,0.25);
-    }
-  </style>
+:root{--bg:#0b1220;--panel:#131e30;--ink:#e9effa;--muted:#a5b4ca;--accent:#8ebcff;--line:#293950}html{scroll-behavior:smooth;scroll-padding-top:90px}body{background:var(--bg);color:var(--ink);font-family:system-ui,sans-serif;line-height:1.75}body.light{--bg:#f5f7fb;--panel:#fff;--ink:#142238;--muted:#52647c;--accent:#245fba;--line:#dbe3ee}.container{max-width:1140px}.navbar{background:#0b1220!important;border-bottom:1px solid #293950}.navbar-brand{letter-spacing:.08em}.nav-link{font-size:.83rem;color:#c3d0e4!important}header{min-height:690px;padding:130px 0 80px;background:radial-gradient(ellipse at 80% 30%,#233d68 0%,#101b30 40%,#0b1220 75%);color:#fff}header .container{display:grid!important;grid-template-columns:1.4fr 1fr;align-content:center;gap:20px;text-align:left}header .profile-pic{grid-column:2;grid-row:1/5;width:min(100%,330px);aspect-ratio:1;object-fit:cover;border-radius:28px;border:1px solid #6d8db9;justify-self:end;box-shadow:0 24px 70px #0006}header h1{font-size:clamp(2.5rem,5vw,4.6rem);line-height:1.06;letter-spacing:-.055em;margin:0}header .lead{color:#b9cce8;max-width:600px}header p{margin:0}header .btn{margin:4px 5px 4px 0;font-size:.9rem;border-radius:8px}.eyebrow{color:#91bbff;text-transform:uppercase;letter-spacing:.18em;font-size:.78rem;font-weight:700}section{padding:76px 0;border-bottom:1px solid var(--line)}section.bg-light{background:var(--bg)!important}h2{font-size:2rem;letter-spacing:-.035em}h2 i{color:var(--accent);margin-right:8px}.card,.list-group-item,#skills .col{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:14px!important}.card-body{padding:26px}.card{height:100%;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-4px);border-color:var(--accent)}.card-text,.text-muted{color:var(--muted)!important}.list-group{gap:9px}.list-group-item{padding:16px 20px}#skills .row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0}#skills .col{width:auto;padding:22px;color:var(--muted)}#skills .fw-bold{color:var(--ink);display:inline-block;margin-bottom:8px}#experience .card{height:auto;border-left:3px solid var(--accent)}#projects .card-title i{color:var(--accent)}.btn-outline-primary,.btn-outline-success{color:var(--accent);border-color:var(--accent)}footer{padding:32px;text-align:center;color:var(--muted)}#theme{border:1px solid #52647c;color:white;background:transparent;border-radius:8px;padding:5px 10px} @media(max-width:767px){header{padding:110px 0 60px;min-height:0}header .container{display:flex!important;text-align:center;gap:14px}header .profile-pic{width:180px;align-self:center}#skills .row{grid-template-columns:1fr}section{padding:48px 0}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+@media(max-width:991px){.navbar-collapse{max-height:70dvh;overflow-y:auto;padding:12px 0}.navbar-nav .nav-link{padding:10px 4px}.navbar .container{padding-inline:20px}}@media(max-width:767px){html{scroll-padding-top:76px}body{overflow-wrap:anywhere}header{height:auto;min-height:0;padding:96px 0 42px}header .container{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;height:auto!important;padding-inline:22px;gap:14px}header .profile-pic{width:132px;height:132px;border-radius:22px;order:-1;object-fit:cover}header h1{font-size:clamp(2rem,8vw,3rem);line-height:1.12}header .lead{font-size:1rem;line-height:1.6}header .eyebrow{font-size:.65rem}header p:last-child{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;width:100%;max-width:360px}header .btn{margin:0;padding:11px 8px;font-size:.85rem;white-space:normal}section>.container{padding-inline:20px}section{padding:36px 0}h2{font-size:1.55rem}.card-body{padding:18px}.card-title{font-size:1.05rem}.card-subtitle{line-height:1.5}.list-group-item{padding:14px}#skills .row{grid-template-columns:minmax(0,1fr)}#skills .col{padding:16px}#projects .row,#hobbies .row{--bs-gutter-y:14px}footer{padding:22px 16px;font-size:.85rem}}</style>
 </head>
 
 <body>
@@ -138,7 +74,7 @@
               <i class="bi bi-heart"></i> Hobbies
             </a>
           </li>
-        </ul>
+        </ul><button id="theme" type="button" aria-label="Toggle color theme">◐ Theme</button>
       </div>
     </div>
   </nav>
@@ -150,10 +86,10 @@
 
       <img src="profile.png" alt="Adrian Paul Guillermo" class="profile-pic">
 
-      <h1 class="display-4 fw-bold">Adrian Paul A. Guillermo</h1>
+      <div class="eyebrow">IT PROFESSIONAL / SOFTWARE & SYSTEMS</div><h1 class="display-4 fw-bold">Adrian Paul A. Guillermo</h1>
 
       <p class="lead">
-        IT Professional | Web Developer | Automation & IoT Developer
+        Building practical software, information systems and connected technology.
       </p>
 
       <p>
@@ -171,11 +107,7 @@
           <i class="bi bi-linkedin"></i> LinkedIn
         </a>
 
-        <a href="https://kiritoyan08.github.io/"
-           target="_blank"
-           class="btn btn-warning btn-lg">
-          <i class="bi bi-globe"></i> Portfolio
-        </a>
+        <a href="#projects" class="btn btn-primary btn-lg">Explore projects</a>
       </p>
 
     </div>
@@ -513,6 +445,7 @@
       <h2 class="mb-4">
         <i class="bi bi-kanban-fill"></i> Projects
       </h2>
+<p class="text-muted mb-4">Some projects are not intended for public access or display. Live demos, source code, and external links are therefore provided only where available and appropriate for public sharing.</p>
 
       <div class="row g-4">
 
@@ -551,7 +484,7 @@
 
               <h5 class="card-title">
                 <i class="bi bi-mortarboard-fill"></i>
-                CICS Web-Based Information System
+                CICS Web-Based Information System (2024)
               </h5>
 
               <p class="card-text">
@@ -559,6 +492,8 @@
                 student and teacher information, academic records, enrollment,
                 subjects, profiles, and curriculum evaluation.
               </p>
+              <a href="https://csusm-cics.great-site.net/?i=1" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm"><i class="bi bi-globe"></i> Visit Website</a>
+<p class="small text-muted mt-2 mb-0">Legacy academic project · Best viewed on a desktop or laptop.</p>
 
             </div>
           </div>
@@ -661,7 +596,15 @@
   </section>
 
 
-  <!-- Hobbies -->
+  <section id="recent-development"><div class="container"><h2 class="mb-3"><i class="bi bi-code-square"></i> Recent Development & Personal Projects</h2><p class="text-muted mb-4">Selected ongoing development projects from 2026, spanning software engineering, AI, game systems and embedded networking. Public access is not available for every project.</p><div class="row g-4"><div class="col-md-6"><article class="card h-100"><div class="card-body"><p class="small text-muted mb-2">AI & local software · 2026</p><h5 class="card-title">Lyra AI</h5><p class="card-text">Local AI workspace integrating Ollama language models, conversational memory, coding assistance and a browser-based interface. Designed for resource-constrained personal computers.</p><p class="small text-muted mb-0">Personal development project · Ongoing development</p></div></article></div>
+<div class="col-md-6"><article class="card h-100"><div class="card-body"><p class="small text-muted mb-2">Game development & infrastructure · 2026</p><h5 class="card-title">Wheel of Souls</h5><p class="card-text">Dark fantasy browser RPG with adventure, arena and platformer gameplay, character systems and multiplayer development. Includes Linux server deployment and administration.</p><a href="https://wos.kreiosgaming.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm mb-2"><i class="bi bi-globe"></i> Play Live Demo</a><p class="small text-muted mb-0">Playable online · Active development · Not yet complete</p></div></article></div>
+<div class="col-md-6"><article class="card h-100"><div class="card-body"><p class="small text-muted mb-2">Java & Minecraft · 2026</p><h5 class="card-title">YANSkills</h5><p class="card-text">Paper server plugin development featuring skill progression, experience balancing, active abilities and party mechanics.</p><p class="small text-muted mb-0">Personal development project · Ongoing development</p></div></article></div>
+<div class="col-md-6"><article class="card h-100"><div class="card-body"><p class="small text-muted mb-2">Developer tools & game assets · 2026</p><h5 class="card-title">YAN Armory</h5><p class="card-text">Development of a unified browser-based asset editor and resource-pack workflow for custom Minecraft equipment, item attributes and set bonuses.</p><p class="small text-muted mb-0">Personal development project · Ongoing development</p></div></article></div>
+<div class="col-md-6"><article class="card h-100"><div class="card-body"><p class="small text-muted mb-2">Java plugin development · 2026</p><h5 class="card-title">YAN Enchants & YANRanks</h5><p class="card-text">Standalone Minecraft plugin projects focused on custom enchantments and rank-based benefits, with separate command and configuration designs.</p><p class="small text-muted mb-0">Personal development project · Ongoing development</p></div></article></div>
+<div class="col-md-6"><article class="card h-100"><div class="card-body"><p class="small text-muted mb-2">Java & event-driven systems · 2026</p><h5 class="card-title">KREIOS Elevators</h5><p class="card-text">Paper plugin implementing vertical travel between aligned block-based elevator platforms with movement checks and cooldowns.</p><p class="small text-muted mb-0">Personal development project · Ongoing development</p></div></article></div>
+<div class="col-md-6"><article class="card h-100"><div class="card-body"><p class="small text-muted mb-2">Embedded networking & IoT · 2026</p><h5 class="card-title">YAN WiFi</h5><p class="card-text">ESP32-based guest Wi-Fi repeater prototype with NAT routing, configuration dashboard and development of client management and usage tracking.</p><p class="small text-muted mb-0">Personal development project · Ongoing development</p></div></article></div>
+<div class="col-md-6"><article class="card h-100"><div class="card-body"><p class="small text-muted mb-2">Unity & game development · 2026</p><h5 class="card-title">Fletchling Flappy Game</h5><p class="card-text">Unity game prototype exploring tap-based flight controls, obstacle generation, menu settings and day/night scene transitions.</p><p class="small text-muted mb-0">Personal development project · Ongoing development</p></div></article></div></div></div></section>
+<!-- Hobbies -->
   <section id="hobbies" class="bg-light">
     <div class="container">
 
@@ -706,5 +649,5 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-</body>
+<script>const theme=document.getElementById('theme');try{document.body.classList.toggle('light',localStorage.getItem('portfolio-theme')==='light')}catch(e){}theme.addEventListener('click',()=>{document.body.classList.toggle('light');try{localStorage.setItem('portfolio-theme',document.body.classList.contains('light')?'light':'dark')}catch(e){}});</script></body>
 </html>
